@@ -2,6 +2,15 @@
 
 import struct
 import sys
+import signal
+import time
+
+def timeout_handler(signum, frame):
+    raise TimeoutError("Script timeout")
+
+# Set timeout for the entire script
+signal.signal(signal.SIGALRM, timeout_handler)
+signal.alarm(15)  # 15 second timeout
 
 def parse_saleae_file(filename):
     """Parse Saleae Logic Analyzer file and extract digital data"""
