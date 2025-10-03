@@ -1,0 +1,22 @@
+HTTP/1.1 200 OK
+Server: nginx/1.19.2
+Date: Fri, 03 Oct 2025 21:44:09 GMT
+Content-Type: text/html
+Content-Length: 312
+Last-Modified: Mon, 07 Sep 2020 14:20:52 GMT
+Connection: keep-alive
+ETag: "5f5641c4-138"
+Accept-Ranges: bytes
+
+<html>
+<head>
+<style>
+h1 {white-space: nowrap; position: fixed; top: 50%; left: 51%; transform: translate(-50%, -50%)}
+h2 {white-space: nowrap; position: fixed; top: 55%; left: 50%; transform: translate(-50%, -50%)}
+</style>
+</head>
+<body>
+<h1>Welcome to HTB Academy!</h1>
+<h2>Proof: t4rg3ts</h2>
+</body>
+</html>
