@@ -1,0 +1,8 @@
+1 - Connection information
+2 - Restart Instance
+3 - Get flag
+action? 
+Private key     :  0x982fe6aaf3b295065e50f1e436cec512e07a33b8c1c8d767e8b86ab7285e2c1d
+Address         :  0x86f4098CfE363f4a36f612D2aa37408d13a136f0
+Target contract :  0xbFc36EBFEBf2e3Ada05AEBF2bEfAfa6Ea299ac4B
+Setup contract  :  0x250d4Ae19639585DdE58cff99D57fBFEB1a9091f

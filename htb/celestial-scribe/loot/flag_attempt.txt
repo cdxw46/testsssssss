@@ -1,0 +1,5 @@
+1 - Connection information
+2 - Restart Instance
+3 - Get flag
+action? Conditions not satisfied!
+
