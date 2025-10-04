@@ -1,0 +1,11 @@
+SELECT IS_SRVROLEMEMBER(sysadmin) AS is_sysadmin;
+SELECT IS_SRVROLEMEMBER(securityadmin) AS is_securityadmin;
+SELECT IS_SRVROLEMEMBER(serveradmin) AS is_serveradmin;
+SELECT IS_SRVROLEMEMBER(dbcreator) AS is_dbcreator;
+SELECT IS_SRVROLEMEMBER(diskadmin) AS is_diskadmin;
+SELECT IS_SRVROLEMEMBER(bulkadmin) AS is_bulkadmin;
+USE msdb;
+SELECT DB_NAME() AS db, USER_NAME() AS user_name, IS_MEMBER(db_owner) AS is_dbo;
+SELECT IS_MEMBER(SQLAgentOperatorRole) AS is_agent_operator;
+SELECT IS_MEMBER(SQLAgentReaderRole) AS is_agent_reader;
+SELECT IS_MEMBER(SQLAgentUserRole) AS is_agent_user;
