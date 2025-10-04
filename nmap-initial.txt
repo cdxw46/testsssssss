@@ -1,0 +1,107 @@
+# Nmap 7.93 scan initiated Sat Oct  4 08:22:24 2025 as: nmap -sS -sC -sV -O -Pn --top-ports 1000 -oN /home/cursor/nmap-initial.txt 10.10.11.88
+Nmap scan report for 10.10.11.88
+Host is up (0.086s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT     STATE SERVICE  VERSION
+22/tcp   open  ssh      OpenSSH 9.7p1 Ubuntu 7ubuntu4.3 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   256 3594fb70361a263ca83c5a5ae4fb8c18 (ECDSA)
+|_  256 c2527c4261ce979d12d5011cba680ffa (ED25519)
+8000/tcp open  http-alt Werkzeug/3.1.3 Python/3.12.7
+|_http-server-header: Werkzeug/3.1.3 Python/3.12.7
+| fingerprint-strings: 
+|   FourOhFourRequest: 
+|     HTTP/1.1 404 NOT FOUND
+|     Server: Werkzeug/3.1.3 Python/3.12.7
+|     Date: Sat, 04 Oct 2025 08:22:40 GMT
+|     Content-Type: text/html; charset=utf-8
+|     Content-Length: 207
+|     Connection: close
+|     <!doctype html>
+|     <html lang=en>
+|     <title>404 Not Found</title>
+|     <h1>Not Found</h1>
+|     <p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>
+|   GetRequest: 
+|     HTTP/1.1 200 OK
+|     Server: Werkzeug/3.1.3 Python/3.12.7
+|     Date: Sat, 04 Oct 2025 08:22:35 GMT
+|     Content-Type: text/html; charset=utf-8
+|     Content-Length: 146960
+|     Connection: close
+|     <!DOCTYPE html>
+|     <html lang="en">
+|     <head>
+|     <meta charset="UTF-8">
+|     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+|     <title>Image Gallery</title>
+|     <script src="static/tailwind.js"></script>
+|     <link rel="stylesheet" href="static/fonts.css">
+|     <script src="static/purify.min.js"></script>
+|     <style>
+|     body {
+|     font-family: 'Inter', sans-serif;
+|     margin: 0;
+|     padding: 0;
+|     box-sizing: border-box;
+|     display: flex;
+|     flex-direction: column;
+|     min-height: 100vh;
+|     position: fixed;
+|     top: 0;
+|     width: 100%;
+|     z-index: 50;
+|_    #app-con
+|_http-title: Image Gallery
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port8000-TCP:V=7.93%I=7%D=10/4%Time=68E0D94B%P=x86_64-pc-linux-gnu%r(Ge
+SF:tRequest,3027,"HTTP/1\.1\x20200\x20OK\r\nServer:\x20Werkzeug/3\.1\.3\x2
+SF:0Python/3\.12\.7\r\nDate:\x20Sat,\x2004\x20Oct\x202025\x2008:22:35\x20G
+SF:MT\r\nContent-Type:\x20text/html;\x20charset=utf-8\r\nContent-Length:\x
+SF:20146960\r\nConnection:\x20close\r\n\r\n<!DOCTYPE\x20html>\n<html\x20la
+SF:ng=\"en\">\n<head>\n\x20\x20\x20\x20<meta\x20charset=\"UTF-8\">\n\x20\x
+SF:20\x20\x20<meta\x20name=\"viewport\"\x20content=\"width=device-width,\x
+SF:20initial-scale=1\.0\">\n\x20\x20\x20\x20<title>Image\x20Gallery</title
+SF:>\n\x20\x20\x20\x20<script\x20src=\"static/tailwind\.js\"></script>\n\x
+SF:20\x20\x20\x20<link\x20rel=\"stylesheet\"\x20href=\"static/fonts\.css\"
+SF:>\n\x20\x20\x20\x20<script\x20src=\"static/purify\.min\.js\"></script>\
+SF:n\n\x20\x20\x20\x20<style>\n\x20\x20\x20\x20\x20\x20\x20\x20body\x20{\n
+SF:\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-family:\x20'Inter'
+SF:,\x20sans-serif;\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margi
+SF:n:\x200;\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x200
+SF:;\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20box-sizing:\x20borde
+SF:r-box;\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20fle
+SF:x;\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20flex-direction:\x20
+SF:column;\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20min-height:\x2
+SF:0100vh;\n\x20\x20\x20\x20\x20\x20\x20\x20}\n\x20\x20\x20\x20\x20\x20\x2
+SF:0\x20nav\x20{\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20position
+SF::\x20fixed;\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20top:\x200;
+SF:\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20width:\x20100%;\n\x20
+SF:\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20z-index:\x2050;\n\x20\x20\x
+SF:20\x20\x20\x20\x20\x20}\n\x20\x20\x20\x20\x20\x20\x20\x20#app-con")%r(F
+SF:ourOhFourRequest,184,"HTTP/1\.1\x20404\x20NOT\x20FOUND\r\nServer:\x20We
+SF:rkzeug/3\.1\.3\x20Python/3\.12\.7\r\nDate:\x20Sat,\x2004\x20Oct\x202025
+SF:\x2008:22:40\x20GMT\r\nContent-Type:\x20text/html;\x20charset=utf-8\r\n
+SF:Content-Length:\x20207\r\nConnection:\x20close\r\n\r\n<!doctype\x20html
+SF:>\n<html\x20lang=en>\n<title>404\x20Not\x20Found</title>\n<h1>Not\x20Fo
+SF:und</h1>\n<p>The\x20requested\x20URL\x20was\x20not\x20found\x20on\x20th
+SF:e\x20server\.\x20If\x20you\x20entered\x20the\x20URL\x20manually\x20plea
+SF:se\x20check\x20your\x20spelling\x20and\x20try\x20again\.</p>\n");
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.93%E=4%D=10/4%OT=22%CT=1%CU=37981%PV=Y%DS=2%DC=I%G=Y%TM=68E0D9B
+OS:8%P=x86_64-pc-linux-gnu)SEQ(SP=105%GCD=1%ISR=10B%TI=Z%CI=Z%II=I%TS=A)SEQ
+OS:(SP=105%GCD=1%ISR=10B%TI=Z%CI=Z%TS=A)OPS(O1=M552ST11NW7%O2=M552ST11NW7%O
+OS:3=M552NNT11NW7%O4=M552ST11NW7%O5=M552ST11NW7%O6=M552ST11)WIN(W1=FE88%W2=
+OS:FE88%W3=FE88%W4=FE88%W5=FE88%W6=FE88)ECN(R=Y%DF=Y%T=40%W=FAF0%O=M552NNSN
+OS:W7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%D
+OS:F=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O
+OS:=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W
+OS:=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%R
+OS:IPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 2 hops
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Oct  4 08:24:24 2025 -- 1 IP address (1 host up) scanned in 121.25 seconds
