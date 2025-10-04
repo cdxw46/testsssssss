@@ -1,0 +1,29 @@
+# Nmap 7.95 scan initiated Sat Oct  4 01:58:09 2025 as: nmap -Pn -n -sC -sV -p 22,111,38412,4240,9962,10256 -oA /workspace/htb-celestial-scribe/nmap/targeted_basic 83.136.254.128
+Nmap scan report for 83.136.254.128
+Host is up (0.16s latency).
+
+PORT      STATE SERVICE VERSION
+22/tcp    open  ssh     OpenSSH 9.2p1 Debian 2+deb12u3 (protocol 2.0)
+| ssh-hostkey: 
+|   256 6c:0e:02:2d:0e:1c:df:5b:48:a8:c1:65:94:ec:27:c1 (ECDSA)
+|_  256 2c:43:26:89:15:24:4a:5a:55:78:11:39:d4:4f:2c:9e (ED25519)
+111/tcp   open  rpcbind 2-4 (RPC #100000)
+| rpcinfo: 
+|   100000: 
+|     local: 
+|       addr: /run/rpcbind.sock
+|       version: 
+|         3
+|_      owner: superuser
+4240/tcp  open  daap    mt-daapd DAAP
+9962/tcp  open  http    Golang net/http server (Go-IPFS json-rpc or InfluxDB API)
+|_http-title: Site doesn't have a title (text/plain; charset=utf-8).
+10256/tcp open  http    Golang net/http server (Go-IPFS json-rpc or InfluxDB API)
+|_http-title: Site doesn't have a title (text/plain; charset=utf-8).
+38412/tcp open  http    Apache httpd 2.4.41 ((Ubuntu))
+|_http-title: File Manager
+|_http-server-header: Apache/2.4.41 (Ubuntu)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Oct  4 01:58:26 2025 -- 1 IP address (1 host up) scanned in 17.48 seconds

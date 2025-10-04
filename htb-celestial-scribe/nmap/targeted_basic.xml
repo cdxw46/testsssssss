@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.95 scan initiated Sat Oct  4 01:58:09 2025 as: nmap -Pn -n -sC -sV -p 22,111,38412,4240,9962,10256 -oA /workspace/htb-celestial-scribe/nmap/targeted_basic 83.136.254.128 -->
+<nmaprun scanner="nmap" args="nmap -Pn -n -sC -sV -p 22,111,38412,4240,9962,10256 -oA /workspace/htb-celestial-scribe/nmap/targeted_basic 83.136.254.128" start="1759543089" startstr="Sat Oct  4 01:58:09 2025" version="7.95" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="6" services="22,111,4240,9962,10256,38412"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1759543089" endtime="1759543106"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="83.136.254.128" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="42"/><service name="ssh" product="OpenSSH" version="9.2p1 Debian 2+deb12u3" extrainfo="protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:9.2p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="ssh-hostkey" output="&#xa;  256 6c:0e:02:2d:0e:1c:df:5b:48:a8:c1:65:94:ec:27:c1 (ECDSA)&#xa;  256 2c:43:26:89:15:24:4a:5a:55:78:11:39:d4:4f:2c:9e (ED25519)"><table>
+<elem key="fingerprint">6c0e022d0e1cdf5b48a8c16594ec27c1</elem>
+<elem key="key">AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBKrg/oBxxmqrD1sKOybW69GvD30Umk4jpnRrKVhsN94w7dWSSIFXcyWAxiDySSXGrWRQNWDzaIY+Rcr3QjWfcJw=</elem>
+<elem key="type">ecdsa-sha2-nistp256</elem>
+<elem key="bits">256</elem>
+</table>
+<table>
+<elem key="fingerprint">2c43268915244a5a55781139d44f2c9e</elem>
+<elem key="key">AAAAC3NzaC1lZDI1NTE5AAAAILbjKHJIXsiThiE1dY64mNhI4IlP1eDmwH3OOW4uO+mH</elem>
+<elem key="type">ssh-ed25519</elem>
+<elem key="bits">256</elem>
+</table>
+</script></port>
+<port protocol="tcp" portid="111"><state state="open" reason="syn-ack" reason_ttl="42"/><service name="rpcbind" version="2-4" extrainfo="RPC #100000" method="probed" conf="10"/><script id="rpcinfo" output="&#xa;  100000: &#xa;    local: &#xa;      addr: /run/rpcbind.sock&#xa;      version: &#xa;        3&#xa;      owner: superuser"><table key="100000">
+<table key="local">
+<elem key="addr">/run/rpcbind.sock</elem>
+<table key="version">
+<elem>3</elem>
+</table>
+<elem key="owner">superuser</elem>
+</table>
+</table>
+</script></port>
+<port protocol="tcp" portid="4240"><state state="open" reason="syn-ack" reason_ttl="43"/><service name="daap" product="mt-daapd DAAP" method="probed" conf="10"><cpe>cpe:/a:golang:go</cpe></service></port>
+<port protocol="tcp" portid="9962"><state state="open" reason="syn-ack" reason_ttl="42"/><service name="http" product="Golang net/http server" extrainfo="Go-IPFS json-rpc or InfluxDB API" method="probed" conf="10"><cpe>cpe:/a:protocol_labs:go-ipfs</cpe></service><script id="http-title" output="Site doesn&apos;t have a title (text/plain; charset=utf-8)."></script></port>
+<port protocol="tcp" portid="10256"><state state="open" reason="syn-ack" reason_ttl="42"/><service name="http" product="Golang net/http server" extrainfo="Go-IPFS json-rpc or InfluxDB API" method="probed" conf="10"><cpe>cpe:/a:protocol_labs:go-ipfs</cpe></service><script id="http-title" output="Site doesn&apos;t have a title (text/plain; charset=utf-8)."></script></port>
+<port protocol="tcp" portid="38412"><state state="open" reason="syn-ack" reason_ttl="39"/><service name="http" product="Apache httpd" version="2.4.41" extrainfo="(Ubuntu)" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.4.41</cpe></service><script id="http-title" output="File Manager"><elem key="title">File Manager</elem>
+</script><script id="http-server-header" output="Apache/2.4.41 (Ubuntu)"><elem>Apache/2.4.41 (Ubuntu)</elem>
+</script></port>
+</ports>
+<times srtt="156990" rttvar="38422" to="310678"/>
+</host>
+<runstats><finished time="1759543106" timestr="Sat Oct  4 01:58:26 2025" summary="Nmap done at Sat Oct  4 01:58:26 2025; 1 IP address (1 host up) scanned in 17.48 seconds" elapsed="17.48" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>
