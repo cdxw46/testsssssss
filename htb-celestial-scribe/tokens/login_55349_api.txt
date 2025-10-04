@@ -1,0 +1,8 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 04 Oct 2025 04:08:04 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 208
+Connection: keep-alive
+
+{"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJ1MSIsInJvbGUiOiJvcGVyYXRvciIsImlhdCI6MTc1OTU1MDg4NCwiZXhwIjoxNzU5NTU4MDg0fQ.X1xstucouceUtEcUCB3FDlAmWTZ73NTKm_iZRyiTCnw","role":"operator"}

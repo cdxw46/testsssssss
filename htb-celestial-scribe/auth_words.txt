@@ -1,0 +1,14 @@
+/api/login
+/api/auth/login
+/login
+/auth/login
+/api/token
+/token
+/api/verify
+/verify
+/api/flag
+/flag
+/api/flags
+/flags
+/api/secret
+/secret
