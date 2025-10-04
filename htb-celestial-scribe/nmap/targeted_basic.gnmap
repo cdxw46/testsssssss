@@ -1,0 +1,4 @@
+# Nmap 7.95 scan initiated Sat Oct  4 01:58:09 2025 as: nmap -Pn -n -sC -sV -p 22,111,38412,4240,9962,10256 -oA /workspace/htb-celestial-scribe/nmap/targeted_basic 83.136.254.128
+Host: 83.136.254.128 ()	Status: Up
+Host: 83.136.254.128 ()	Ports: 22/open/tcp//ssh//OpenSSH 9.2p1 Debian 2+deb12u3 (protocol 2.0)/, 111/open/tcp//rpcbind//2-4 (RPC #100000)/, 4240/open/tcp//daap//mt-daapd DAAP/, 9962/open/tcp//http//Golang net|http server (Go-IPFS json-rpc or InfluxDB API)/, 10256/open/tcp//http//Golang net|http server (Go-IPFS json-rpc or InfluxDB API)/, 38412/open/tcp//http//Apache httpd 2.4.41 ((Ubuntu))/
+# Nmap done at Sat Oct  4 01:58:26 2025 -- 1 IP address (1 host up) scanned in 17.48 seconds
