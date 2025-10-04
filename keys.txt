@@ -1,0 +1,17 @@
+secret
+changeme
+changeit
+flask_secret_key
+supersecretkey
+keyboardcat
+thisisaverysecretkey
+development
+dev
+test
+htb
+gallery
+gallery-secret
+image-gallery-secret
+supersecret
+defaultsecret
+admin
