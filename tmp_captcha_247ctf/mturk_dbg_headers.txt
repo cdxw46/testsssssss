@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 18 Oct 2025 10:59:04 GMT
+Content-Type: image/png
+Content-Length: 4904
+Connection: keep-alive
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+
