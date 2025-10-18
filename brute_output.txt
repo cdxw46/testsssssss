@@ -1,0 +1,36 @@
+Heap size: 5173565
+Trying EVERY 16-byte sequence (step 1)...
+Progress: 250000 / 5173565
+Progress: 500000 / 5173565
+Progress: 750000 / 5173565
+Progress: 1000000 / 5173565
+Progress: 1250000 / 5173565
+Progress: 1500000 / 5173565
+Progress: 1750000 / 5173565
+Progress: 2000000 / 5173565
+Progress: 2250000 / 5173565
+Progress: 2500000 / 5173565
+Progress: 2750000 / 5173565
+Progress: 3000000 / 5173565
+Progress: 3250000 / 5173565
+Progress: 3500000 / 5173565
+Progress: 3750000 / 5173565
+Progress: 4000000 / 5173565
+
+=== FOUND at offset 4185073 ===
+stCTF{h34p_6ump5_r_c00l!11!!}
+Key: 075fde10a7aa496c80472b29642835e8
+================================
+
+
+=== FOUND at offset 4191851 ===
+stCTF{h34p_6ump5_r_c00l!11!!}
+Key: 075fde10a7aa496c80472b29642835e8
+================================
+
+Progress: 4250000 / 5173565
+Progress: 4500000 / 5173565
+Progress: 4750000 / 5173565
+Progress: 5000000 / 5173565
+
+Done. Tried 5173550 keys.
