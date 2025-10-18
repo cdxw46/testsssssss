@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 18 Oct 2025 10:48:44 GMT
+Content-Type: text/html; charset=UTF-8
+Content-Length: 1500
+Connection: keep-alive
+Set-Cookie: PHPSESSID=iu6q4hvh9ba657tg77hlbandda; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+
