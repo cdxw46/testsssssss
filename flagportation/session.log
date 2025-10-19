@@ -1,0 +1,1442 @@
+
+        ╔═════════════════════════════╗
+        ║    Qubitrix's Teleporter    ║
+        ║       Terminal (QTT)        ║    
+        ╠═════════════════════════════╣
+        ║ Every 24 hours, Qubitrix    ║
+        ║ will release a secret       ║
+        ║ message to our partners.    ║
+        ║ Please follow the           ║
+        ║ instructions we sent you    ║
+        ║ by email from               ║
+        ║ info@qubitrix.com.          ║
+        ╚═════════════════════════════╝
+    
+Qubit 1/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 0
+Specify the instructions : --> H:2;H:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 1
+Qubit 2/204
+Basis : Z
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 0
+Specify the instructions : --> Z:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 3/204
+Basis : X
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 1
+Specify the instructions : --> X:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 0
+Qubit 4/204
+Basis : Z
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 1
+Specify the instructions : --> Z:2;X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 5/204
+Basis : Z
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 1
+Specify the instructions : --> Z:2;X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 1
+Qubit 6/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 0
+Specify the instructions : --> H:2;H:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 1
+Qubit 7/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 0
+Specify the instructions : --> H:2;H:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 1
+Qubit 8/204
+Basis : Z
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 1
+Specify the instructions : --> Z:2;X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 9/204
+Basis : Z
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 0
+Specify the instructions : --> Z:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 1
+Qubit 10/204
+Basis : Z
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 0
+Specify the instructions : --> Z:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 11/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 0
+Specify the instructions : --> H:2;H:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 12/204
+Basis : X
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 1
+Specify the instructions : --> Z:2;X:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 0
+Qubit 13/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 1
+Specify the instructions : --> X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 1
+Qubit 14/204
+Basis : X
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 0
+Specify the instructions : --> Z:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 1
+Qubit 15/204
+Basis : X
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 0
+Specify the instructions : --> Z:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 0
+Qubit 16/204
+Basis : X
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 0
+Specify the instructions : --> H:2;H:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 1
+Qubit 17/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 1
+Specify the instructions : --> X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 1
+Qubit 18/204
+Basis : X
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 0
+Specify the instructions : --> H:2;H:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 0
+Qubit 19/204
+Basis : Z
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 0
+Specify the instructions : --> Z:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 20/204
+Basis : X
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 1
+Specify the instructions : --> Z:2;X:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 1
+Qubit 21/204
+Basis : Z
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 0
+Specify the instructions : --> Z:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 22/204
+Basis : X
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 0
+Specify the instructions : --> H:2;H:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 1
+Qubit 23/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 1
+Specify the instructions : --> X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 24/204
+Basis : Z
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 1
+Specify the instructions : --> Z:2;X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 25/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 1
+Specify the instructions : --> X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 1
+Qubit 26/204
+Basis : X
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 0
+Specify the instructions : --> Z:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 0
+Qubit 27/204
+Basis : X
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 0
+Specify the instructions : --> H:2;H:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 1
+Qubit 28/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 1
+Specify the instructions : --> X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 1
+Qubit 29/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 1
+Specify the instructions : --> X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 1
+Qubit 30/204
+Basis : X
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 0
+Specify the instructions : --> Z:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 1
+Qubit 31/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 0
+Specify the instructions : --> H:2;H:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 32/204
+Basis : Z
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 1
+Specify the instructions : --> Z:2;X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 33/204
+Basis : Z
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 0
+Specify the instructions : --> Z:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 1
+Qubit 34/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 0
+Specify the instructions : --> H:2;H:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 35/204
+Basis : X
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 1
+Specify the instructions : --> Z:2;X:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 1
+Qubit 36/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 1
+Specify the instructions : --> X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 37/204
+Basis : Z
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 0
+Specify the instructions : --> Z:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 38/204
+Basis : X
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 1
+Specify the instructions : --> Z:2;X:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 1
+Qubit 39/204
+Basis : Z
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 0
+Specify the instructions : --> Z:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 40/204
+Basis : X
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 1
+Specify the instructions : --> X:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 1
+Qubit 41/204
+Basis : Z
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 0
+Specify the instructions : --> Z:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 42/204
+Basis : X
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 0
+Specify the instructions : --> H:2;H:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 1
+Qubit 43/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 1
+Specify the instructions : --> X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 1
+Qubit 44/204
+Basis : X
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 1
+Specify the instructions : --> X:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 1
+Qubit 45/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 1
+Specify the instructions : --> X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 46/204
+Basis : X
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 1
+Specify the instructions : --> X:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 1
+Qubit 47/204
+Basis : Z
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 1
+Specify the instructions : --> Z:2;X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 48/204
+Basis : Z
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 1
+Specify the instructions : --> Z:2;X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 1
+Qubit 49/204
+Basis : Z
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 1
+Specify the instructions : --> Z:2;X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 1
+Qubit 50/204
+Basis : X
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 1
+Specify the instructions : --> X:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 0
+Qubit 51/204
+Basis : X
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 0
+Specify the instructions : --> Z:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 1
+Qubit 52/204
+Basis : X
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 1
+Specify the instructions : --> Z:2;X:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 0
+Qubit 53/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 1
+Specify the instructions : --> X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 1
+Qubit 54/204
+Basis : X
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 0
+Specify the instructions : --> H:2;H:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 0
+Qubit 55/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 1
+Specify the instructions : --> X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 1
+Qubit 56/204
+Basis : X
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 1
+Specify the instructions : --> X:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 1
+Qubit 57/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 0
+Specify the instructions : --> H:2;H:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 1
+Qubit 58/204
+Basis : Z
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 0
+Specify the instructions : --> Z:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 1
+Qubit 59/204
+Basis : X
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 1
+Specify the instructions : --> X:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 1
+Qubit 60/204
+Basis : X
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 0
+Specify the instructions : --> Z:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 1
+Qubit 61/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 0
+Specify the instructions : --> H:2;H:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 62/204
+Basis : X
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 1
+Specify the instructions : --> Z:2;X:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 1
+Qubit 63/204
+Basis : Z
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 1
+Specify the instructions : --> Z:2;X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 1
+Qubit 64/204
+Basis : X
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 1
+Specify the instructions : --> X:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 1
+Qubit 65/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 1
+Specify the instructions : --> X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 1
+Qubit 66/204
+Basis : X
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 0
+Specify the instructions : --> H:2;H:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 0
+Qubit 67/204
+Basis : X
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 1
+Specify the instructions : --> X:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 0
+Qubit 68/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 0
+Specify the instructions : --> H:2;H:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 69/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 1
+Specify the instructions : --> X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 70/204
+Basis : X
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 1
+Specify the instructions : --> Z:2;X:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 1
+Qubit 71/204
+Basis : Z
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 1
+Specify the instructions : --> Z:2;X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 72/204
+Basis : X
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 1
+Specify the instructions : --> X:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 1
+Qubit 73/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 1
+Specify the instructions : --> X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 1
+Qubit 74/204
+Basis : Z
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 1
+Specify the instructions : --> Z:2;X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 1
+Qubit 75/204
+Basis : X
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 0
+Specify the instructions : --> H:2;H:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 1
+Qubit 76/204
+Basis : X
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 0
+Specify the instructions : --> Z:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 1
+Qubit 77/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 1
+Specify the instructions : --> X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 1
+Qubit 78/204
+Basis : X
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 1
+Specify the instructions : --> X:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 1
+Qubit 79/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 0
+Specify the instructions : --> H:2;H:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 80/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 0
+Specify the instructions : --> H:2;H:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 1
+Qubit 81/204
+Basis : Z
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 1
+Specify the instructions : --> Z:2;X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 1
+Qubit 82/204
+Basis : X
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 0
+Specify the instructions : --> H:2;H:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 1
+Qubit 83/204
+Basis : Z
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 1
+Specify the instructions : --> Z:2;X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 1
+Qubit 84/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 1
+Specify the instructions : --> X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 1
+Qubit 85/204
+Basis : Z
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 0
+Specify the instructions : --> Z:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 86/204
+Basis : X
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 0
+Specify the instructions : --> H:2;H:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 1
+Qubit 87/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 1
+Specify the instructions : --> X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 1
+Qubit 88/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 0
+Specify the instructions : --> H:2;H:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 89/204
+Basis : Z
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 1
+Specify the instructions : --> Z:2;X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 1
+Qubit 90/204
+Basis : X
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 1
+Specify the instructions : --> X:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 0
+Qubit 91/204
+Basis : X
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 1
+Specify the instructions : --> Z:2;X:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 1
+Qubit 92/204
+Basis : X
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 1
+Specify the instructions : --> X:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 0
+Qubit 93/204
+Basis : Z
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 1
+Specify the instructions : --> Z:2;X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 94/204
+Basis : X
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 0
+Specify the instructions : --> Z:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 1
+Qubit 95/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 1
+Specify the instructions : --> X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 1
+Qubit 96/204
+Basis : X
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 1
+Specify the instructions : --> X:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 1
+Qubit 97/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 1
+Specify the instructions : --> X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 1
+Qubit 98/204
+Basis : X
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 1
+Specify the instructions : --> X:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 1
+Qubit 99/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 1
+Specify the instructions : --> X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 1
+Qubit 100/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 1
+Specify the instructions : --> X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 1
+Qubit 101/204
+Basis : Z
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 0
+Specify the instructions : --> Z:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 1
+Qubit 102/204
+Basis : X
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 0
+Specify the instructions : --> Z:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 0
+Qubit 103/204
+Basis : X
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 1
+Specify the instructions : --> Z:2;X:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 1
+Qubit 104/204
+Basis : Z
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 1
+Specify the instructions : --> Z:2;X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 1
+Qubit 105/204
+Basis : Z
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 0
+Specify the instructions : --> Z:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 1
+Qubit 106/204
+Basis : Z
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 0
+Specify the instructions : --> Z:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 1
+Qubit 107/204
+Basis : X
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 0
+Specify the instructions : --> Z:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 1
+Qubit 108/204
+Basis : X
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 1
+Specify the instructions : --> X:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 1
+Qubit 109/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 1
+Specify the instructions : --> X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 110/204
+Basis : X
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 1
+Specify the instructions : --> X:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 1
+Qubit 111/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 0
+Specify the instructions : --> H:2;H:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 1
+Qubit 112/204
+Basis : X
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 0
+Specify the instructions : --> Z:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 1
+Qubit 113/204
+Basis : Z
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 1
+Specify the instructions : --> Z:2;X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 114/204
+Basis : X
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 0
+Specify the instructions : --> H:2;H:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 1
+Qubit 115/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 1
+Specify the instructions : --> X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 116/204
+Basis : X
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 0
+Specify the instructions : --> Z:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 1
+Qubit 117/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 0
+Specify the instructions : --> H:2;H:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 1
+Qubit 118/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 1
+Specify the instructions : --> X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 119/204
+Basis : X
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 1
+Specify the instructions : --> X:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 1
+Qubit 120/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 1
+Specify the instructions : --> X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 121/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 1
+Specify the instructions : --> X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 122/204
+Basis : X
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 0
+Specify the instructions : --> Z:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 1
+Qubit 123/204
+Basis : Z
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 1
+Specify the instructions : --> Z:2;X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 124/204
+Basis : X
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 0
+Specify the instructions : --> Z:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 1
+Qubit 125/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 0
+Specify the instructions : --> H:2;H:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 1
+Qubit 126/204
+Basis : X
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 0
+Specify the instructions : --> Z:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 1
+Qubit 127/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 0
+Specify the instructions : --> H:2;H:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 128/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 1
+Specify the instructions : --> X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 129/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 1
+Specify the instructions : --> X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 130/204
+Basis : X
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 0
+Specify the instructions : --> Z:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 1
+Qubit 131/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 1
+Specify the instructions : --> X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 132/204
+Basis : Z
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 1
+Specify the instructions : --> Z:2;X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 133/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 1
+Specify the instructions : --> X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 1
+Qubit 134/204
+Basis : X
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 0
+Specify the instructions : --> Z:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 1
+Qubit 135/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 1
+Specify the instructions : --> X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 136/204
+Basis : X
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 0
+Specify the instructions : --> H:2;H:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 0
+Qubit 137/204
+Basis : Z
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 0
+Specify the instructions : --> Z:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 138/204
+Basis : X
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 1
+Specify the instructions : --> Z:2;X:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 1
+Qubit 139/204
+Basis : Z
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 1
+Specify the instructions : --> Z:2;X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 1
+Qubit 140/204
+Basis : X
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 0
+Specify the instructions : --> H:2;H:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 1
+Qubit 141/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 1
+Specify the instructions : --> X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 142/204
+Basis : X
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 0
+Specify the instructions : --> Z:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 1
+Qubit 143/204
+Basis : Z
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 1
+Specify the instructions : --> Z:2;X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 1
+Qubit 144/204
+Basis : Z
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 0
+Specify the instructions : --> Z:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 145/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 0
+Specify the instructions : --> H:2;H:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 146/204
+Basis : X
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 1
+Specify the instructions : --> X:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 1
+Qubit 147/204
+Basis : Z
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 1
+Specify the instructions : --> Z:2;X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 1
+Qubit 148/204
+Basis : X
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 1
+Specify the instructions : --> Z:2;X:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 1
+Qubit 149/204
+Basis : Z
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 0
+Specify the instructions : --> Z:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 150/204
+Basis : X
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 0
+Specify the instructions : --> H:2;H:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 1
+Qubit 151/204
+Basis : Z
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 1
+Specify the instructions : --> Z:2;X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 152/204
+Basis : Z
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 0
+Specify the instructions : --> Z:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 1
+Qubit 153/204
+Basis : Z
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 1
+Specify the instructions : --> Z:2;X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 154/204
+Basis : X
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 0
+Specify the instructions : --> H:2;H:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 1
+Qubit 155/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 1
+Specify the instructions : --> X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 156/204
+Basis : Z
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 1
+Specify the instructions : --> Z:2;X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 157/204
+Basis : Z
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 0
+Specify the instructions : --> Z:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 1
+Qubit 158/204
+Basis : X
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 0
+Specify the instructions : --> H:2;H:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 0
+Qubit 159/204
+Basis : X
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 0
+Specify the instructions : --> H:2;H:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 1
+Qubit 160/204
+Basis : X
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 0
+Specify the instructions : --> H:2;H:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 0
+Qubit 161/204
+Basis : Z
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 0
+Specify the instructions : --> Z:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 1
+Qubit 162/204
+Basis : Z
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 0
+Specify the instructions : --> Z:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 1
+Qubit 163/204
+Basis : X
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 1
+Specify the instructions : --> Z:2;X:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 1
+Qubit 164/204
+Basis : X
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 0
+Specify the instructions : --> H:2;H:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 1
+Qubit 165/204
+Basis : Z
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 1
+Specify the instructions : --> Z:2;X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 1
+Qubit 166/204
+Basis : X
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 0
+Specify the instructions : --> H:2;H:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 1
+Qubit 167/204
+Basis : Z
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 0
+Specify the instructions : --> Z:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 168/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 0
+Specify the instructions : --> H:2;H:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 169/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 1
+Specify the instructions : --> X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 1
+Qubit 170/204
+Basis : X
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 1
+Specify the instructions : --> Z:2;X:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 1
+Qubit 171/204
+Basis : Z
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 0
+Specify the instructions : --> Z:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 172/204
+Basis : X
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 0
+Specify the instructions : --> Z:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 0
+Qubit 173/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 0
+Specify the instructions : --> H:2;H:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 174/204
+Basis : X
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 1
+Specify the instructions : --> X:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 1
+Qubit 175/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 1
+Specify the instructions : --> X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 176/204
+Basis : Z
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 1
+Specify the instructions : --> Z:2;X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 177/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 1
+Specify the instructions : --> X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 178/204
+Basis : X
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 1
+Specify the instructions : --> Z:2;X:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 1
+Qubit 179/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 0
+Specify the instructions : --> H:2;H:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 1
+Qubit 180/204
+Basis : X
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 1
+Specify the instructions : --> Z:2;X:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 1
+Qubit 181/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 0
+Specify the instructions : --> H:2;H:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 182/204
+Basis : X
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 1
+Specify the instructions : --> X:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 1
+Qubit 183/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 1
+Specify the instructions : --> X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 184/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 0
+Specify the instructions : --> H:2;H:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 185/204
+Basis : Z
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 1
+Specify the instructions : --> Z:2;X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 1
+Qubit 186/204
+Basis : X
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 1
+Specify the instructions : --> X:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 0
+Qubit 187/204
+Basis : Z
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 0
+Specify the instructions : --> Z:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 188/204
+Basis : X
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 0
+Specify the instructions : --> Z:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 1
+Qubit 189/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 1
+Specify the instructions : --> X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 190/204
+Basis : X
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 1
+Specify the instructions : --> Z:2;X:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 1
+Qubit 191/204
+Basis : Z
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 1
+Specify the instructions : --> Z:2;X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 192/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 1
+Specify the instructions : --> X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 193/204
+Basis : Z
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 1
+Specify the instructions : --> Z:2;X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 1
+Qubit 194/204
+Basis : Z
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 0
+Specify the instructions : --> Z:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 195/204
+Basis : X
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 0
+Specify the instructions : --> H:2;H:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 1
+Qubit 196/204
+Basis : Z
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 1
+Specify the instructions : --> Z:2;X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 197/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 1
+Specify the instructions : --> X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 198/204
+Basis : X
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 1
+Specify the instructions : --> Z:2;X:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 0
+Qubit 199/204
+Basis : Z
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 1
+Specify the instructions : --> Z:2;X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 0
+Qubit 200/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 1
+Specify the instructions : --> X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 1
+Qubit 201/204
+Basis : Z
+Measurement of qubit 0 : 0
+Measurement of qubit 1 : 0
+Specify the instructions : --> H:2;H:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 1
+Qubit 202/204
+Basis : X
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 0
+Specify the instructions : --> Z:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 1
+Qubit 203/204
+Basis : X
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 0
+Specify the instructions : --> Z:2
+Specify the measurement basis : --> X
+Measurement of qubit 2 : 1
+Qubit 204/204
+Basis : Z
+Measurement of qubit 0 : 1
+Measurement of qubit 1 : 1
+Specify the instructions : --> Z:2;X:2
+Specify the measurement basis : --> Z
+Measurement of qubit 2 : 1
