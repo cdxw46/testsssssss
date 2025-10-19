@@ -1,0 +1,21 @@
+
+7-Zip 24.09 (x64) : Copyright (c) 1999-2024 Igor Pavlov : 2024-11-29
+ 64-bit locale=en_US.UTF-8 Threads:4 OPEN_MAX:1048576, ASM
+
+Scanning the drive for archives:
+1 file, 883854 bytes (864 KiB)
+
+Listing archive: /workspace/recon/restaurant-htb/files/Restaurant.zip
+
+--
+Path = /workspace/recon/restaurant-htb/files/Restaurant.zip
+Type = zip
+Physical Size = 883854
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2021-02-23 14:48:27 D....            0            0  pwn_restaurant
+2021-02-23 13:25:27 .....        12952         4134  pwn_restaurant/restaurant
+2021-02-20 20:45:39 .....      2030928       879154  pwn_restaurant/libc.so.6
+------------------- ----- ------------ ------------  ------------------------
+2021-02-23 14:48:27            2043880       883288  2 files, 1 folders

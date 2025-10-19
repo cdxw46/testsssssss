@@ -1,0 +1,19 @@
+
+7-Zip 24.09 (x64) : Copyright (c) 1999-2024 Igor Pavlov : 2024-11-29
+ 64-bit locale=en_US.UTF-8 Threads:4 OPEN_MAX:1048576, ASM
+
+Scanning the drive for archives:
+1 file, 883854 bytes (864 KiB)
+
+Extracting archive: /workspace/recon/restaurant-htb/files/Restaurant.zip
+--
+Path = /workspace/recon/restaurant-htb/files/Restaurant.zip
+Type = zip
+Physical Size = 883854
+
+Everything is Ok
+
+Folders: 1
+Files: 2
+Size:       2043880
+Compressed: 883854
