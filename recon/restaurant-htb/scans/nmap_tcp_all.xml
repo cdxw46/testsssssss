@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.95 scan initiated Sun Oct 19 16:54:40 2025 as: nmap -n -Pn -sT -sV -sC -p- -T4 -oA /workspace/recon/restaurant-htb/scans/nmap_tcp_all 94.237.48.12 -->
+<nmaprun scanner="nmap" args="nmap -n -Pn -sT -sV -sC -p- -T4 -oA /workspace/recon/restaurant-htb/scans/nmap_tcp_all 94.237.48.12" start="1760892880" startstr="Sun Oct 19 16:54:40 2025" version="7.95" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="65535" services="1-65535"/>

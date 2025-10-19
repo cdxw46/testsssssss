@@ -1,0 +1,7 @@
+Archive:  /workspace/recon/restaurant-htb/files/challenge.zip
+  End-of-central-directory signature not found.  Either this file is not
+  a zipfile, or it constitutes one disk of a multi-part archive.  In the
+  latter case the central directory and zipfile comment will be found on
+  the last disk(s) of this archive.
+unzip:  cannot find zipfile directory in one of /workspace/recon/restaurant-htb/files/challenge.zip or
+        /workspace/recon/restaurant-htb/files/challenge.zip.zip, and cannot find /workspace/recon/restaurant-htb/files/challenge.zip.ZIP, period.

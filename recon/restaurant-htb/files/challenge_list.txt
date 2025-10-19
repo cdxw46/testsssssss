@@ -1,0 +1,19 @@
+
+7-Zip 24.09 (x64) : Copyright (c) 1999-2024 Igor Pavlov : 2024-11-29
+ 64-bit locale=en_US.UTF-8 Threads:4 OPEN_MAX:1048576, ASM
+
+Scanning the drive for archives:
+1 file, 2096 bytes (3 KiB)
+
+Listing archive: /workspace/recon/restaurant-htb/files/challenge.zip
+
+
+ERROR: /workspace/recon/restaurant-htb/files/challenge.zip : /workspace/recon/restaurant-htb/files/challenge.zip
+Open ERROR: Cannot open the file as [zip] archive
+
+
+ERRORS:
+Is not archive
+
+
+Errors: 1

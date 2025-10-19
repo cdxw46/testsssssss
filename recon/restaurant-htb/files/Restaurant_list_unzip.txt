@@ -1,0 +1,8 @@
+Archive:  /workspace/recon/restaurant-htb/files/Restaurant.zip
+  Length      Date    Time    Name
+---------  ---------- -----   ----
+        0  2021-02-23 14:48   pwn_restaurant/
+    12952  2021-02-23 13:25   pwn_restaurant/restaurant
+  2030928  2021-02-20 20:45   pwn_restaurant/libc.so.6
+---------                     -------
+  2043880                     3 files
