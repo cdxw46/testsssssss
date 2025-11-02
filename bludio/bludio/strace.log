@@ -1,0 +1,38 @@
+execve("./bludio", ["./bludio", "flag.enc"], 0x7ffdb7a9e898 /* 28 vars */) = 0
+brk(NULL)                               = 0x55ab5d41b000
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f21410b3000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=26243, ...}) = 0
+mmap(NULL, 26243, PROT_READ, MAP_PRIVATE, 5, 0) = 0x7f21410ac000
+close(5)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 5
+read(5, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\243\2\0\0\0\0\0"..., 832) = 832
+pread64(5, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+fstat(5, {st_mode=S_IFREG|0755, st_size=2125328, ...}) = 0
+pread64(5, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+mmap(NULL, 2170256, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7f2140e9a000
+mmap(0x7f2140ec2000, 1605632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x28000) = 0x7f2140ec2000
+mmap(0x7f214104a000, 323584, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x1b0000) = 0x7f214104a000
+mmap(0x7f2141099000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x1fe000) = 0x7f2141099000
+mmap(0x7f214109f000, 52624, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f214109f000
+close(5)                                = 0
+mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2140e97000
+arch_prctl(ARCH_SET_FS, 0x7f2140e97740) = 0
+set_tid_address(0x7f2140e97a10)         = 3959
+set_robust_list(0x7f2140e97a20, 24)     = 0
+rseq(0x7f2140e98060, 0x20, 0, 0x53053053) = 0
+mprotect(0x7f2141099000, 16384, PROT_READ) = 0
+mprotect(0x55ab4fcd6000, 4096, PROT_READ) = 0
+mprotect(0x7f21410eb000, 8192, PROT_READ) = 0
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+munmap(0x7f21410ac000, 26243)           = 0
+getrandom("\x21\xd4\x02\x6c\x26\x00\xe5\x90", 8, GRND_NONBLOCK) = 8
+brk(NULL)                               = 0x55ab5d41b000
+brk(0x55ab5d43c000)                     = 0x55ab5d43c000
+openat(AT_FDCWD, "flag.enc", O_RDONLY)  = 5
+openat(AT_FDCWD, NULL, O_WRONLY|O_CREAT|O_TRUNC, 0666) = -1 EFAULT (Bad address)
+fstat(1, {st_mode=S_IFSOCK|0777, st_size=0, ...}) = 0
+write(1, "ERR: Permission denied while ope"..., 50) = 50
+exit_group(-1)                          = ?
++++ exited with 255 +++
